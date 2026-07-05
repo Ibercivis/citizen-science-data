@@ -1,3 +1,5 @@
+![Citizen Science Data Hub](.github/social-preview.png)
+
 # Citizen Science Data Hub (CSDH) — notebooks
 
 Example notebooks for the **Citizen Science Data Hub (CSDH)** — Fundación
