@@ -1,46 +1,45 @@
 # Citizen Science Data Hub (CSDH) — notebooks
 
-Notebooks de ejemplo del **Citizen Science Data Hub (CSDH)** — Fundación
-Ibercivis. Un notebook por dataset de la galería pública:
+Example notebooks for the **Citizen Science Data Hub (CSDH)** — Fundación
+Ibercivis. One notebook per dataset in the public gallery:
 
 **https://data.ibercivis.es**
 
-> El CSDH es la plataforma de datos (galería + JupyterHub). Los módulos
-> formativos de la **Citizen Science Data Academy** están en la
-> [ECS Academy](https://moodle.citizenscience.eu/) (serie *Data Analysis 1-5*:
-> Jupyter, Python, NumPy, Pandas y visualización).
+> The CSDH is the data platform (gallery + JupyterHub). The training modules of
+> the **Citizen Science Data Academy** live on the
+> [ECS Academy](https://moodle.citizenscience.eu/) (the *Data Analysis 1-5*
+> series: Jupyter, Python, NumPy, Pandas and visualization).
 
-## Cómo usarlos
+## How to use them
 
-- **Sin instalar nada:** desde la ficha de cada dataset en la galería, el botón
-  *"Trabajar en este dataset"* abre el notebook en el JupyterHub del CSDH
-  (https://jupyterhub.ibercivis.es) con los datos ya montados en `/srv/data`.
-  Login con tu cuenta de GitHub.
-- **Empezar por el principio:** [`index.ipynb`](index.ipynb).
-- **Volver al original tras editar tu copia:** celda *Restaurar* al final de
-  cada notebook, o [`restaurar.ipynb`](restaurar.ipynb).
-- **En tu máquina:** clona el repo y descarga los datos desde el enlace Zenodo
-  que hay en la cabecera de cada notebook (ajusta la ruta `DATA`).
+- **Nothing to install:** from each dataset's page in the gallery, the
+  *"Work on this dataset"* button opens the notebook in the CSDH JupyterHub
+  (https://jupyterhub.ibercivis.es) with the data already mounted at `/srv/data`.
+  Sign in with your GitHub account.
+- **Start from the beginning:** [`index.ipynb`](index.ipynb).
+- **Get the original back after editing your copy:** the *Restore* cell at the
+  end of each notebook, or [`restore.ipynb`](restore.ipynb).
+- **On your own machine:** clone the repo and download the data from the Zenodo
+  link in each notebook's header (adjust the `DATA` path).
 
-## Participar
+## Take part
 
-Dudas, resultados y retos: en las
-[Discussions](https://github.com/Ibercivis/citizen-science-data/discussions)
-de este repositorio.
+Questions, results and challenges: in this repository's
+[Discussions](https://github.com/Ibercivis/citizen-science-data/discussions).
 
-## Licencias
+## Licenses
 
-- Los notebooks se publican bajo **CC-BY-4.0**, salvo los derivados de datasets
-  con licencia *ShareAlike* (`marcsi-marine`), que son **CC-BY-SA-4.0**.
-- Cada dataset conserva su licencia original, indicada en la cabecera del
-  notebook y en su ficha de la galería.
+- Notebooks are published under **CC-BY-4.0**, except those derived from
+  datasets with a *ShareAlike* license (`marcsi-marine`), which are
+  **CC-BY-SA-4.0**.
+- Each dataset keeps its original license, shown in the notebook header and on
+  its gallery page.
 
-## Mantenimiento
+## Maintenance
 
-Los notebooks se generan desde plantilla con los metadatos de la galería
-(`scripts/generate_notebooks.py` en el repo de la plataforma) y se validan
-ejecutándolos contra los datos reales. Para proponer mejoras, abre un issue o
-un PR.
+Notebooks are generated from a template with the gallery metadata
+(`scripts/generate_notebooks.py` in the platform repo) and validated by running
+them against the real data. To suggest improvements, open an issue or a PR.
 
 ---
-*Proyecto ECS — T3.4. Servicio sin ánimo comercial.*
+*ECS project — T3.4. Non-commercial service.*
