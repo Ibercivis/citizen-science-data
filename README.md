@@ -1,16 +1,23 @@
-# Citizen Science Data — notebooks de la CSDA
+# Citizen Science Data Hub (CSDH) — notebooks
 
-Notebooks de ejemplo de la **Citizen Science Data Academy (CSDA)** — Fundación
+Notebooks de ejemplo del **Citizen Science Data Hub (CSDH)** — Fundación
 Ibercivis. Un notebook por dataset de la galería pública:
 
 **https://data.ibercivis.es**
 
+> El CSDH es la plataforma de datos (galería + JupyterHub). Los módulos
+> formativos de la **Citizen Science Data Academy** están en el Moodle de
+> Ibercivis.
+
 ## Cómo usarlos
 
 - **Sin instalar nada:** desde la ficha de cada dataset en la galería, el botón
-  *"Trabajar en este dataset"* abre el notebook en el JupyterHub de la CSDA
+  *"Trabajar en este dataset"* abre el notebook en el JupyterHub del CSDH
   (https://jupyterhub.ibercivis.es) con los datos ya montados en `/srv/data`.
+  Login con tu cuenta de GitHub.
 - **Empezar por el principio:** [`index.ipynb`](index.ipynb).
+- **Volver al original tras editar tu copia:** celda *Restaurar* al final de
+  cada notebook, o [`restaurar.ipynb`](restaurar.ipynb).
 - **En tu máquina:** clona el repo y descarga los datos desde el enlace Zenodo
   que hay en la cabecera de cada notebook (ajusta la ruta `DATA`).
 
@@ -35,4 +42,4 @@ ejecutándolos contra los datos reales. Para proponer mejoras, abre un issue o
 un PR.
 
 ---
-*Proyecto ECS — T3.4 Citizen Science Data Academy. Servicio sin ánimo comercial.*
+*Proyecto ECS — T3.4. Servicio sin ánimo comercial.*
