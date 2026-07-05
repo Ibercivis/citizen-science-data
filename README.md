@@ -6,8 +6,9 @@ Ibercivis. Un notebook por dataset de la galería pública:
 **https://data.ibercivis.es**
 
 > El CSDH es la plataforma de datos (galería + JupyterHub). Los módulos
-> formativos de la **Citizen Science Data Academy** están en el Moodle de
-> Ibercivis.
+> formativos de la **Citizen Science Data Academy** están en la
+> [ECS Academy](https://moodle.citizenscience.eu/) (serie *Data Analysis 1-5*:
+> Jupyter, Python, NumPy, Pandas y visualización).
 
 ## Cómo usarlos
 
